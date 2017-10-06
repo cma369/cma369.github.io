@@ -1,0 +1,216 @@
+@charset "utf-8";
+.BodyIndexPage {
+	background-color: rgba(198,156,109,1.00);
+	color: hsla(0,100%,98%,1.00);
+	text-align: left;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.Maincontent {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+}
+.Header {
+	background-color: #603813;
+	float: left;
+	height: 150px;
+	width: 960px;
+	border-left: 1px solid rgba(252,252,252,1.00);
+	border-right: thin solid rgba(252,252,252,1.00);
+	border-bottom: thin solid rgba(252,252,252,1.00);
+	border-top: thin solid rgba(252,252,252,1.00);
+}
+.HeaderSectionLeft {
+	width: 480px;
+	float: left;
+	background-color: rgba(96,56,19,1.00);
+	height: 145px;
+	color: hsla(0,18%,4%,1.00);
+	text-align: right;
+	padding-top: 5px;
+}
+.image_header_left {
+	width: 400px;
+	height: 130px;
+}
+
+.HeaderSectionRight {
+	float: left;
+	width: 480px;
+	background-color: rgba(96,56,19,1.00);
+	height: 150px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.NavBarTop {
+	float: left;
+	height: 50px;
+	width: 960px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0;
+	border-left: 1px solid rgba(253,253,253,1.00);
+	border-right: thin solid rgba(253,253,253,1.00);
+	border-bottom: thin solid rgba(253,253,253,1.00);
+	border-top: thin solid rgba(253,253,253,1.00);
+	background-color: rgba(96,56,19,1.00);
+}
+.navbarlist {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow-x: hidden;
+}
+
+.navbaritems {
+	float: right;
+}
+.navbaritems a {
+	text-decoration: none;
+	display: block;
+	padding: 14px 16px 16px;
+	color: rgba(198,156,109,1.00);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 20px;
+}
+.navbaritems a:hover {
+	color: rgba(251,244,244,1.00);
+	text-decoration: underline;
+}
+.IndexIntroduction {
+	float: left;
+	border: 1px solid rgba(251,248,245,1.00);
+	width: 930px;
+	margin-bottom: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	background-position: center 0%;
+	background-repeat: no-repeat;
+	background-size: 102% 102%;
+	background-color: rgba(96,56,19,1.00);
+}
+
+.PageContentMain {
+	width: 960px;
+	height: 500px;
+	float: left;
+}
+.MainPictureBox {
+	float: left;
+	height: 505px;
+	width: 660px;
+	background-color: #603813;
+	font-weight: bold;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: larger;
+	border-right-width: thin;
+}
+.ResourcesPanel {
+	width: 296px;
+	height: 504px;
+	float: left;
+	background-color: #FCFAF8;
+	padding-top: 0px;
+	padding-left: 0px;
+	color: rgba(96,56,19,1.00);
+	border: 2px solid rgba(254,252,250,1.00);
+}
+.resourcepanelimage {
+	display: block;
+	padding-left: auto;
+	padding-right: auto;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 125px;
+	height: 190px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
+
+.resourcepanelh1 {
+	text-align: center;
+	text-decoration: underline;
+}
+.resourcelinks {
+	list-style-type: none;
+	overflow-x: hidden;
+	list-style: none;
+}
+
+.resourceitems a:hover {
+	color: rgba(198,156,109,1.00);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-decoration: underline;
+}
+
+.resourceitems a {
+	display: block;
+	margin: 14px 16px 16px;
+	color: rgba(96,56,19,1.00);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.topleft {
+	float: left;
+	height: 250px;
+	width: 326px;
+	background-image: url(images/Botanica.jpg);
+	border: 2px solid rgba(251,245,246,1.00);
+}
+.topright {
+	float: left;
+	height: 250px;
+	width: 326px;
+	background-image: url(images/recipe.jpg);
+	border: 2px solid rgba(253,253,253,1.00);
+}
+.bottomleft {
+	float: left;
+	height: 250px;
+	width: 326px;
+	background-image: url(images/vegan%20cafe.jpg);
+	border: 2px solid rgba(252,252,252,1.00);
+}
+.bottomright {
+	float: left;
+	height: 250px;
+	width: 326px;
+	background-image: url(images/vegan%20food.jpg);
+	border: 2px solid rgba(251,251,251,1.00);
+}
+.Indexfooter {
+	background-color: rgba(96,56,19,1);
+	float: left;
+	height: 25px;
+	width: 960px;
+	margin-top: 20px;
+	border-width: 1px;
+	border-style: solid;
+	padding-top: 10px;
+	padding-left: 0px;
+	text-align: center;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	font-size: large;
+	padding-bottom: 10px;
+}
+.MainPictureBoxImages {
+	width: 150px;
+	height: 35px;
+	z-index: 10;
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
