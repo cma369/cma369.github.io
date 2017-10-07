@@ -1,19 +1,21 @@
 @charset "utf-8";
+/*_________ All 'Index Page' Styles go here _________*/
 .BodyIndexPage {
 	background-color: rgba(198,156,109,1.00);
 	color: hsla(0,100%,98%,1.00);
 	text-align: left;
-	font-family: actor;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-style: normal;
 	font-weight: 400;
 }
-
+/*_________ All Pages will have the same Body elements liste above _________*/
 .Maincontent {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
 	height: 50px;
 }
+
 .Header {
 	background-color: #603813;
 	float: left;
@@ -74,7 +76,7 @@
 	display: block;
 	padding: 14px 16px 16px;
 	color: rgba(198,156,109,1.00);
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 20px;
 }
 .navbaritems a:hover {
@@ -129,7 +131,7 @@
 	left: 0px;
 	bottom: 0px;
 	width: 125px;
-	height: 190px;
+	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 10px;
@@ -147,7 +149,7 @@
 
 .resourceitems a:hover {
 	color: rgba(198,156,109,1.00);
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	text-decoration: underline;
 }
 
@@ -155,9 +157,10 @@
 	display: block;
 	margin: 14px 16px 16px;
 	color: rgba(96,56,19,1.00);
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 20px;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .topleft {
@@ -199,7 +202,7 @@
 	padding-top: 10px;
 	padding-left: 0px;
 	text-align: center;
-	font-family: actor;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: large;
@@ -213,4 +216,147 @@
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/*_________ Put all the 'About Us' styles here _________*/
+
+.AboutUsMainContent {
+	width: 960px;
+	height: 1000px;
+	margin-top: 20px;
+	float: left;
+	display: block;
+	background-color: rgba(253,252,252,1.00);
+}
+.AboutUsMainPictureBox {
+	width: 760px;
+	float: left;
+	color: rgba(251,251,251,1.00);
+	height: 800px;
+}
+.AboutUsResourcesPanel {
+	width: 200px;
+	height: 750px;
+	display: block;
+	float: right;
+	background-color: rgba(237,218,218,1.00);
+}
+.aboutusresourcesub-headings {
+	color: rgba(5,117,60,1.00);
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+.aboutusresourcepanalheading {
+	color: rgba(96,56,19,1.00);
+	padding: 10px 0 0;
+	text-align: center;
+	top: 0px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+	text-decoration: underline;
+}
+.aboutusresourcelinks {
+	overflow-x: hidden;
+	padding-left: 20px;
+	margin: 10px 0 0;
+	list-style: none;
+}
+.aboutusresourceitems {
+	text-align: left;
+
+
+
+}
+
+.aboutusresourceitems a {
+	color: rgba(96,56,19,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	line-height: 20px;
+	text-align: left;
+}
+.aboutusresourceitems a:hover {
+	color: rgba(198,156,109,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.aboutusresourcepanelimage {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+}
+.aboutus_section1 {
+	background-color: rgba(96,56,19,1);
+	float: left;
+	height: 250px;
+	width: 250px;
+	display: block;
+}
+.aboutus_section2 {
+	display: block;
+	float: left;
+	height: 250px;
+	width: 250px;
+	padding-left: 9px;
+	padding-top: 2px;
+}
+.aboutus_section3 {
+	display: block;
+	float: left;
+	height: 250px;
+	width: 250px;
+}
+.aboutus_mainpanel_text_subheadings {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 0px;
+}
+.aboutus_mainpanel_text {
+	display: block;
+	float: left;
+	height: auto;
+	width: 559px;
+	color: rgba(96,56,19,1.00);
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 19px;
+	background-color: rgba(252,252,252,1.00);
+}
+.events_sections2-3 {
+	background-color: rgba(68,68,68,1);
+	display: block;
+	float: left;
+	height: 250px;
+	width: 500px;
+}
+.events_sections2-3 {
+	background-color: rgba(110,110,110,1);
+	display: block;
+	float: left;
+	height: 250px;
+	width: 500px;
+	padding-left: 20px;
+}
+.events_sections2_3 {
+	background-color: rgba(114,114,114,1);
+	display: block;
+	float: left;
+	height: 250px;
+	width: 480px;
+	margin-left: 15px;
 }
