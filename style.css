@@ -234,6 +234,46 @@
 	color: rgba(251,251,251,1.00);
 	height: 800px;
 }
+.aboutus_mainpanel_text {
+	color: rgba(96,56,19,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 20px;
+	display: block;
+	width: 720px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	float: left;
+}
+
+.events_text2 {
+	width: 480px;
+	height: 245px;
+	display: block;
+	float: right;
+	z-index: 5;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.events_image3 {
+	width: 250px;
+	height: 245px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+.events_text3 {
+	width: 480px;
+	height: 245px;
+	display: block;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
 .AboutUsResourcesPanel {
 	width: 200px;
 	height: 750px;
@@ -298,10 +338,9 @@
 	margin-top: 10px;
 }
 .aboutus_section1 {
-	background-color: rgba(96,56,19,1);
 	float: left;
 	height: 250px;
-	width: 250px;
+	width: 500px;
 	display: block;
 }
 .aboutus_section2 {
@@ -323,19 +362,17 @@
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 0px;
-}
-.aboutus_mainpanel_text {
-	display: block;
-	float: left;
-	height: auto;
-	width: 559px;
 	color: rgba(96,56,19,1.00);
-	padding-top: 10px;
-	padding-left: 100px;
-	padding-right: 100px;
+}
+.events_image1 {
+	display: block;
+	height: 245px;
+	width: 250px;
+	color: rgba(96,56,19,1.00);
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 19px;
-	background-color: rgba(252,252,252,1.00);
+	float: left;
+	text-align: center;
 }
 .events_sections2-3 {
 	background-color: rgba(68,68,68,1);
@@ -353,10 +390,47 @@
 	padding-left: 20px;
 }
 .events_sections2_3 {
-	background-color: rgba(114,114,114,1);
+	display: block;
+	height: 250px;
+	width: 250px;
+	float: left;
+	margin-top: 10px;
+}
+.events_text1 {
+	width: 480px;
+	height: 245px;
+	display: block;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.events_text_headings {
+	color: rgba(96,56,19,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 25px;
+	padding: 0;
+	margin: 5px 0 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+.events_image2 {
+	width: 250px;
+	height: 245px;
 	display: block;
 	float: left;
-	height: 250px;
-	width: 480px;
-	margin-left: 15px;
+	text-align: center;
+}
+.events_textp  {
+	color: rgba(96,56,19,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 18px;
+}
+.site_under_construction {
+	width: 760px;
+	height: 500px;
+	display: block;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
 }
