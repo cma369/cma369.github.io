@@ -101,7 +101,7 @@
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	margin: 10px;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 
@@ -266,7 +266,7 @@
 .aboutus_mainpanel_text {
 	color: rgba(96,56,19,1.00);
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-size: 17px;
+	font-size: 16px;
 	display: block;
 	width: 720px;
 	margin-top: 10px;
@@ -287,10 +287,11 @@
 }
 .events_image3 {
 	width: 250px;
-	height: 245px;
+	height: 225px;
 	display: block;
 	float: left;
 	text-align: center;
+	padding-top: 20px;
 }
 .events_text3 {
 	width: 480px;
@@ -398,13 +399,14 @@
 }
 .events_image1 {
 	display: block;
-	height: 245px;
+	height: 225px;
 	width: 250px;
 	color: rgba(96,56,19,1.00);
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 19px;
 	float: left;
 	text-align: center;
+	padding-top: 20px;
 }
 .events_sections2-3 {
 	background-color: rgba(68,68,68,1);
@@ -427,6 +429,7 @@
 	width: 200px;
 	float: left;
 	margin-top: 10px;
+	margin-left: 25px;
 }
 .events_text1 {
 	width: 480px;
@@ -448,10 +451,11 @@
 
 .events_image2 {
 	width: 250px;
-	height: 245px;
+	height: 225px;
 	display: block;
 	float: left;
 	text-align: center;
+	padding-top: 20px;
 }
 .events_textp  {
 	color: rgba(96,56,19,1.00);
