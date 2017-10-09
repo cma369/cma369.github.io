@@ -4,7 +4,7 @@
 	background-color: rgba(198,156,109,1.00);
 	color: hsla(0,100%,98%,1.00);
 	text-align: left;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -75,17 +75,17 @@
 	text-decoration: none;
 	display: block;
 	padding: 14px 16px 16px;
-	color: rgba(198,156,109,1.00);
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: rgba(237,218,218,1.00);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: 20px;
 }
 .navbaritems a:hover {
-	color: rgba(251,244,244,1.00);
+	color: rgba(186,251,115,1.00);
 	text-decoration: underline;
 }
 .IndexIntroduction {
 	float: left;
-	border: 1px solid rgba(251,248,245,1.00);
+	border: 1px solid rgba(96,56,19,1.00);
 	width: 930px;
 	margin-bottom: 20px;
 	padding-right: 15px;
@@ -94,8 +94,16 @@
 	background-position: center 0%;
 	background-repeat: no-repeat;
 	background-size: 102% 102%;
-	background-color: rgba(96,56,19,1.00);
+	background-color: rgba(255,255,255,1.00);
 }
+.indexintro_p {
+	color: rgba(96,56,19,1.00);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin: 10px;
+	font-weight: normal;
+	font-size: 18px;
+}
+
 
 .PageContentMain {
 	width: 960px;
@@ -140,6 +148,9 @@
 .resourcepanelh1 {
 	text-align: center;
 	text-decoration: underline;
+	padding: 0;
+	margin: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 }
 .resourcelinks {
 	list-style-type: none;
@@ -149,7 +160,7 @@
 
 .resourceitems a:hover {
 	color: rgba(198,156,109,1.00);
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	text-decoration: underline;
 }
 
@@ -157,7 +168,7 @@
 	display: block;
 	margin: 14px 16px 16px;
 	color: rgba(96,56,19,1.00);
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: 20px;
 	text-decoration: none;
 	font-weight: bold;
@@ -202,7 +213,7 @@
 	padding-top: 10px;
 	padding-left: 0px;
 	text-align: center;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: large;
@@ -234,13 +245,31 @@
 	color: rgba(251,251,251,1.00);
 	height: 800px;
 }
+.cafes-recipes-2 {
+	width: 250px;
+	height: 225px;
+	display: block;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.cafes-recipes-1 {
+	width: 250px;
+	height: 225px;
+	display: block;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+}
+
 .aboutus_mainpanel_text {
 	color: rgba(96,56,19,1.00);
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 17px;
 	display: block;
 	width: 720px;
-	margin-top: 20px;
+	margin-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
@@ -276,7 +305,7 @@
 
 .AboutUsResourcesPanel {
 	width: 200px;
-	height: 750px;
+	height: auto;
 	display: block;
 	float: right;
 	background-color: rgba(237,218,218,1.00);
@@ -285,6 +314,7 @@
 	color: rgba(5,117,60,1.00);
 	text-align: center;
 	font-weight: bold;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 }
 
 
@@ -298,6 +328,7 @@
 	font-weight: bold;
 	margin: 0;
 	text-decoration: underline;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 }
 .aboutusresourcelinks {
 	overflow-x: hidden;
@@ -307,6 +338,7 @@
 }
 .aboutusresourceitems {
 	text-align: left;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 
 
 
@@ -314,17 +346,17 @@
 
 .aboutusresourceitems a {
 	color: rgba(96,56,19,1.00);
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-weight: bold;
 	font-size: 16px;
 	text-decoration: none;
 	display: block;
-	line-height: 20px;
+	line-height: 30px;
 	text-align: left;
 }
 .aboutusresourceitems a:hover {
-	color: rgba(198,156,109,1.00);
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: rgba(0,123,56,1.00);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	text-decoration: underline;
@@ -358,7 +390,7 @@
 	width: 250px;
 }
 .aboutus_mainpanel_text_subheadings {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 0px;
@@ -392,7 +424,7 @@
 .events_sections2_3 {
 	display: block;
 	height: 250px;
-	width: 250px;
+	width: 200px;
 	float: left;
 	margin-top: 10px;
 }
@@ -406,8 +438,8 @@
 }
 .events_text_headings {
 	color: rgba(96,56,19,1.00);
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 25px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 20px;
 	padding: 0;
 	margin: 5px 0 0;
 	text-align: center;
@@ -423,8 +455,9 @@
 }
 .events_textp  {
 	color: rgba(96,56,19,1.00);
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 18px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin: 0;
+	font-size: 16px;
 }
 .site_under_construction {
 	width: 760px;
@@ -433,4 +466,19 @@
 	float: left;
 	text-align: center;
 	margin-top: 40px;
+}
+.indexintro_h1  {
+	color: rgba(96,56,19,1.00);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: bold;
+	margin: 10px;
+	font-size: 30px;
+}
+.cafes-recipes-3 {
+	width: 250px;
+	height: 225px;
+	display: block;
+	padding-top: 20px;
+	float: left;
+	text-align: center;
 }
